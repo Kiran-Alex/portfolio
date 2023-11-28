@@ -222,7 +222,6 @@ article.active {
 
     display: flex;
     flex-direction: column ;
-    justify-content: space-between;
   
 }
 
@@ -465,6 +464,9 @@ main {
   #NAVBAR
 \*-----------------------------------*/
 
+#navport:focus  {
+  color: var(--orange-yellow-crayola);
+}
 .navbar {
   position: fixed;
   bottom: 0;
